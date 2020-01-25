@@ -19,7 +19,7 @@ export class InfoPaginaService {
   }
 
    private cargarInfo() {
-     // Leer al archivo json
+     // Leer al archivo json desde la data
      this.http.get( 'assets/data/data-pagina.json' )
       .subscribe( (resp: InfoPagina ) =>  {
 
