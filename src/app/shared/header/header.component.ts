@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { InfoPaginaService } from '../../services/infoPagina.service';
 import { Router } from '@angular/router';
-import { ThrowStmt } from '@angular/compiler';
 
 @Component({
   selector: 'app-header',
@@ -19,7 +18,9 @@ export class HeaderComponent implements OnInit {
 
   buscarProducto( termino: string ) {
 
-    if (termino.length < 1){
+    console.log(termino);
+
+    if (termino.length < 1) {
       return;
     }
 
