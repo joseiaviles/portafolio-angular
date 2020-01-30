@@ -1,6 +1,6 @@
 
-// tslint:disable-next-line:class-name
-export interface Descripcion {
+
+export interface productoDescripcion {
   categoria: string;
   desc1: string;
   desc2: string;
