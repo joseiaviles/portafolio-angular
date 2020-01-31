@@ -18,7 +18,7 @@ export class HeaderComponent implements OnInit {
 
   buscarProducto( termino: string ) {
 
-    console.log(termino);
+    // console.log(termino);
 
     if (termino.length < 1) {
       return;
